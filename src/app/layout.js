@@ -1,6 +1,10 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 
+const poppins = Poppins({
+  subsets : ['latin'],
+  weight : '500'
+})
 
 export const metadata = {
   title: "Create Next App",
@@ -11,8 +15,9 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
+      
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className={'${poppins.className} antialiased'}>{children}</body>
     </html>
   );
 }
