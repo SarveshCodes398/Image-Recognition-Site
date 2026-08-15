@@ -1,4 +1,4 @@
-# 🧠 Image Recognition Site
+# 🧠 Image Recognition Site - https://image-recognition-site-seven.vercel.app/
 
 An AI-powered Image Recognition Web Application built with **Next.js**, **TensorFlow.js**, **COCO-SSD**, and **MobileNet**. The application supports both **real-time object detection through a webcam** and **image classification through image uploads** directly in the browser.
 
